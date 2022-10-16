@@ -14,7 +14,7 @@ install_requires = [
 ]
 setup(
     name         = 'scrapy_xls',
-    version      = '0.0.2',
+    version      = '0.0.1',
     description  = 'Scrapy spider for parsing XLS files.',
     long_description=long_description,
     long_description_content_type='text/markdown',

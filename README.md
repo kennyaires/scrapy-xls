@@ -24,7 +24,7 @@ def SuperMarketCatalogSpider(XLSSpider):
         'https://www.supermarket.com/files/catalog-set-22.xlsx',
     ]
 
-    skip_rows = 3 # Assuming that the sheet headers start at the 4th row
+    skip_rows = 3 # Assuming that the sheet headers starts at the 4th row
     sheets = ['FRUITS', 'BEVERAGES']
 
     def parse_row(self, response, sheet, row):

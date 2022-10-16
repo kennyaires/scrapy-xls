@@ -18,6 +18,8 @@ setup(
     description  = 'Scrapy spider for parsing XLS files.',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    author='Kenny',
+    url='https://github.com/kennyaires/scrapy-xls',
     packages     = find_packages(),
     install_requires=install_requires,
     python_requires='>=3.6'
